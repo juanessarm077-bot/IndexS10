@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "**/*.php": "php",
+    "bd.php": "php",
+    "cabecera.php": "html",
+    "pie.php": "html"
+  },
+  "material-icon-theme.files.associations": {
+    "cabecera.php": "html",
+    "pie.php": "html"
+  },
+  "vsicons.associations.files": {
+    "cabecera.php": "html",
+    "pie.php": "html"
+  }
+}
