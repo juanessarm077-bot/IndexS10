@@ -1,1 +1,1 @@
-web: gunicorn IndexS10.wsgi
+web: gunicorn S10.wsgi
