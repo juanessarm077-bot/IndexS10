@@ -1,5 +1,5 @@
 """
-WSGI config for IndexS10 project.
+WSGI config for S10 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'IndexS10.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'S10.settings')
 
 application = get_wsgi_application()
