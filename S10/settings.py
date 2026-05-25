@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-s&041ax*65)wa=jp)(-nm3en!tv)pr)^h*b=$vpktgr_qw2-fl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'indexs10.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'S10.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'S10.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
